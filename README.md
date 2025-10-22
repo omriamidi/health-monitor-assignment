@@ -13,9 +13,9 @@ This repository contains a complete ROS 2 health monitoring system that classifi
 - **Alert Manager Node**: Manages alerts with proper logging levels and rate limiting
 - **Launch Integration**: Complete launch file with all necessary nodes
 - **Health Classification Logic**: 
-  - HEALTHY: RPMs within range, battery > 25%, no BIT errors
-  - WARNING: Battery 15-25% OR RPM out of range OR BIT errors
-  - CRITICAL: Battery < 15% OR both motors idle > 5 seconds
+  HEALTHY: RPMs within range, battery > 25%, no BIT errors
+  WARNING: Battery 15-25% OR RPM out of range OR BIT errors
+  CRITICAL: Battery < 15% OR both motors idle > 5 seconds
 
 ### Bonus Features
 - **Configurable Parameters**: All thresholds adjustable via ROS 2 parameters
